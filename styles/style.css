@@ -336,6 +336,10 @@ textarea::placeholder {
     width: 1280px;
     height: 500px;
 }
+.newsletter-title{
+    margin-bottom: 8px;
+}
+
 
 .newsletter-container {
     padding: 265px 80px;
