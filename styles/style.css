@@ -219,8 +219,79 @@ main section {
 .news-btn{
     background-color: #006A50;
 }
+
 .all-news{
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+.donate{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.donate-titile,.donate-description{
+    text-align: center;
+    padding:0px 88px;
+
+}
+.donate-amount-button{
+    font-size: 40px;
+    border-radius: 16px;
+    font-weight: bold;
+    color:#0E0E0E;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border: none;
+}
+.donate-amount{
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    
+}
+.two-hundred-taka-button{
+    background-color: #C6E4D6 ;
+}
+.donate-other-amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea {
+    margin:32px 0px;
+    width: 1032px;
+    height: 64px;
+    padding: 0;
+    font-size: 20px; 
+    text-align: center;
+    line-height: 64px;
+    border: none;
+    box-sizing: border-box;
+    resize: none;
+    outline: none; 
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+textarea::placeholder {
+    text-align: center;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: "Work Sans", serif;
+}
+
+.donate-button{
+    background-color: #006A50;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding :17px 34px;
+    border-radius: 8px;
+    border: none;
+
 }
