@@ -33,10 +33,12 @@
 
 }
 
+
 .primary-font-2 {
     font-weight: bold;
     font-size: 40px;
     color: #0E0E0E;
+    margin-bottom: -15px;
 }
 
 .primary-font-3 {
@@ -149,6 +151,10 @@ main section {
     margin-bottom: 32px;
 
 }
+.updater-title{
+
+    margin-bottom: 24px;
+}
 
 .pillars {
     display: flex;
@@ -204,6 +210,9 @@ main section {
 .all-news-description {
     margin-bottom: 32px;
 }
+.updater-description{
+    margin-bottom: 25px;
+}
 
 .news-container {
     display: flex;
@@ -245,6 +254,7 @@ main section {
 .donate-description {
     text-align: center;
     padding: 0px 88px;
+    margin-bottom: 25px;
 
 }
 
