@@ -49,6 +49,11 @@
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
+.primary-font-5 {
+    font-weight: bold;
+    font-size: 32px;
+    color:  rgba(14, 14, 14, 0.8);
+}
 
 body {
     padding: 0px 160px;
@@ -73,6 +78,14 @@ body {
     padding: 11px 20px;
     font-weight: 600;
     font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+}
+.primary-button-3 {
+    padding: 13px 26px;
+    font-weight: 600;
+    font-size: 18px;
     border-radius: 8px;
     border: none;
     color: #FFFFFF;
@@ -183,11 +196,16 @@ main section {
     font-size: 20px;
     color: rgba(14, 14, 14, 0.8);
 }
+
+.all-news-description{
+    margin-bottom: 32px;
+}
 .news-container{
     display: flex;
     background-color: #FFFFFF;
     padding: 48px;
     border-radius: 24px;
+    align-items: center;
     gap: 32px;
     
 }
@@ -195,6 +213,14 @@ main section {
     display: flex;
     gap: 12px;
 }
-.news-container img{
+.news-container .news-image img{
     border-radius: 24px;
+}
+.news-btn{
+    background-color: #006A50;
+}
+.all-news{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
